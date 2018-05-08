@@ -7,6 +7,7 @@ def line(array)
     puts "The line is currently empty."
   else
     while line_count < array.length
+      puts ""
       
      
     end
