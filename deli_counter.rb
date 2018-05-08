@@ -11,6 +11,7 @@ def line(array)
       line << "#{line_count+1}. #{array[line_count]} "
       line_count +=1
     end
+    puts line
   end
-  puts line
+  
 end 
