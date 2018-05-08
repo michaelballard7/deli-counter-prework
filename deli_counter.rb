@@ -13,5 +13,4 @@ def line(array)
     end
     puts line
   end
-  
 end 
