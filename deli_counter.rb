@@ -18,5 +18,6 @@ end
 
 def take_a_number(array,person)
   array.push(person)
+  puts "Welcome #{person}, you are #{array.length} in line."
 end
 
