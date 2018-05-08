@@ -12,6 +12,6 @@ def line(array)
       line.concat(" #{array[ line_count ]} ")
       line_count +=1
     end
-    puts line
+    puts line.chop
   end
 end 
