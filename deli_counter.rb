@@ -9,7 +9,7 @@ def line(array)
   else
     while line_count < array.length
       line << "#{line_count+1}. "
-      line << "#{array[line_count]}"
+      line << " #{array[line_count]}"
       line_count +=1
     end
     puts line
