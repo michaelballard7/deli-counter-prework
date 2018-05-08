@@ -9,7 +9,7 @@ def line(array)
   else
     while line_count < array.length
       line.concat( "#{line_count+1 }. ") 
-      line.concat( "#{array[line_count]}")
+      line.concat( " #{array[line_count]}")
       line_count +=1
     end
     puts line
