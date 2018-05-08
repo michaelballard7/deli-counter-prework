@@ -17,11 +17,7 @@ def line(array)
 end 
 
 def take_a_number(array,person)
-  if array.length == 0 
-    puts "Thers is nobody in line"
-  else
     array.push(person)
     puts "Welcome #{person}. You are number #{array.length} in line."
-  end
 end
 
