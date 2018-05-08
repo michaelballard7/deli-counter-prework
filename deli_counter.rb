@@ -18,8 +18,10 @@ end
 
 def take_a_number(array,person)
   if array.length == 0 
-    
-  array.push(person)
-  puts "Welcome #{person}. You are number #{array.length} in line."
+    puts "Thers is nobody in line"
+  else
+    array.push(person)
+    puts "Welcome #{person}. You are number #{array.length} in line."
+  end
 end
 
