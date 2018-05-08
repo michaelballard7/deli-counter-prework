@@ -15,3 +15,4 @@ def line(array)
     puts line.chop
   end
 end 
+
