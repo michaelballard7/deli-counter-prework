@@ -12,4 +12,5 @@ def line(array)
       line_count +=1
     end
   end
+  puts line
 end 
